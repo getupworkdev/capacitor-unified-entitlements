@@ -1,0 +1,23 @@
+{
+  "name": "capacitor-unified-entitlements",
+  "version": "0.1.0",
+  "description": "One subscription entitlement across Stripe (web), Apple IAP and Google Play Billing (via RevenueCat) for a Capacitor app backed by Supabase.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@revenuecat/purchases-capacitor": "^10.0.0",
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

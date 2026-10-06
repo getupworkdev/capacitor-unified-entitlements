@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["TEAMID1234.app.example.ios"],
+        "components": [{ "/": "/auth/callback*" }]
+      }
+    ]
+  }
+}
